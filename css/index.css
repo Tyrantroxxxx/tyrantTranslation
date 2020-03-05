@@ -1,0 +1,142 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 阻止没加载时显示 */
+[v-cloak] {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    width: 50%;
+    height: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 0.5px #000 solid;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 50px;
+    letter-spacing: 6px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.3;
+    background-color: #000;
+    color: #fcf8e8;
+    box-shadow: #000 1px 1px 1px 1px;
+}
+
+/* 标题 */
+.mainTitle{
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+/* 主体 */
+.mainCard{
+    width: 85%;
+    margin: 0 auto;
+    height: 500px;
+    padding-top: 30px;
+}
+/* 盒子撑满屏幕 */
+#app{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    background: url(../img/bgMain.jpg) no-repeat ;
+    background-size: cover;
+    padding-top: 20px;
+}
+.main{
+    padding-top: 80px;
+    width: 100%;
+}
+.inputTxt{
+    width: 100%;
+    height: 150px;
+    z-index: 999;
+    margin-top: 10px;
+}
+.toBeTed{
+    width: 80%;
+    height: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.7;
+    background: url(../img/upper.jpg) no-repeat bottom;
+    background-size: cover;
+    border: 0;
+    border-radius: 10px;
+}
+.Ted{
+    margin-top: 15px;
+    width: 80%;
+    height: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.7;
+    background: url(../img/lower.jpg) no-repeat top;
+    background-size: cover;
+    border: 0;
+    border-radius: 10px;
+}
+.select2{
+    margin-top: 55px;
+}
+
+.select1,
+.select2,
+.inputTxt{
+    opacity: 0.3;
+
+}
+.el-input__inner,
+.el-textarea__inner{
+    background-color: #000;
+    border: 0;
+    border-radius: 6px;
+    color: #fcf8e8;
+    opacity: 1000;
+}
+.el-textarea__inner{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+.translated{
+    text-align: center;
+    width: 90%;
+    margin-bottom: 8px;
+}
+.el-select{
+    width: 220px;
+}
+.audioBox{
+    margin-top: 8px;
+}
+
+/* 页脚 */
+footer{
+    margin-top: 50px;
+    color: gray;
+    text-align: center;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}
